@@ -1,0 +1,29 @@
+
+
+ [
+    {
+        "id": 0,
+        "imgUrl":"assets/icons/carbon_notebook-reference.svg",
+        "name":"Prove your skills",
+        "description":"Gain substantial experience by solving real-world problmes and pit against others to come up with innovation solutions."
+    },
+    {
+        "id": 1,
+        "imgUrl":"assets/icons/Vector.svg",
+        "name":"Learn from community",
+        "description":"Gain substantial experience by solving real-world problmes and pit against others to come up with innovation solutions."
+    },
+    {
+        "id": 2,
+        "imgUrl":"assets/icons/Robot.svg",
+        "name":"Challange yourself",
+        "description":"Gain substantial experience by solving real-world problmes and pit against others to come up with innovation solutions."
+    },
+    {
+        "id": 3,
+        "imgUrl":"assets/icons/IdentificationCard.svg",
+        "name":"Earn recognition",
+        "description":"Gain substantial experience by solving real-world problmes and pit against others to come up with innovation solutions."
+    }
+]
+

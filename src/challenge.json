@@ -1,0 +1,75 @@
+[
+  {
+    "id":"0",
+    "cimg":"assets/cardimage/Group 1000002466.png",
+    "status":"Upcoming",
+    "title":"Data Science Bootcamp - Graded Datathon",
+    "timer":"Starts in",
+    "day":"00",
+    "hour":"15",
+    "minutes":"25",
+    "date":false,
+    "level":"Easy"
+  },
+  {
+    "id":"1",
+    "cimg":"assets/cardimage/Group 1000002766.png",
+    "status":"Active",
+    "title":"Data Sprint 72 - Butterfly Identification",
+    "timer":"Ends in",
+    "day":"01",
+    "hour":"17",
+    "minutes":"25",
+    "date":false ,
+    "level":"Easy"
+  },
+  {
+    "id":"2",
+    "cimg":"assets/cardimage/Group 1000002767.png",
+    "status":"Past",
+    "title":"Data Sprint 71 - Weather Recognition",
+    "timer":"Ended on",
+    "day":false,
+    "hour":false,
+    "minutes":false,
+    "date":"16th May'22 09:00 PM" ,
+    "level":"Easy"
+  },
+  {
+    "id":"3",
+    "cimg":"assets/cardimage/Group 1000002466.png",
+    "status":"Upcoming",
+    "title":"Data Science Bootcamp - Graded Datathon",
+    "timer":"Starts in",
+    "day":"00",
+    "hour":"15",
+    "minutes":"25",
+    "date":false ,
+    "level":"Easy"
+  },
+  {
+    "id":"4",
+    "cimg":"assets/cardimage/Group 1000002766.png",
+    "status":"Active",
+    "title":"Data Sprint 72 - Butterfly Identification",
+    "timer":"Ends in",
+    "day":"01",
+    "hour":"17",
+    "minutes":"25",
+    "date":false ,
+    "level":"Easy"
+  },
+  {
+    "id":"5",
+    "cimg":"assets/cardimage/Group 1000002767.png",
+    "status":"Past",
+    "title":"Data Sprint 71 - Weather Recognition",
+    "timer":"Ended on",
+    "day":false,
+    "hour":false,
+    "minutes":false,
+    "date":"16th May'22 09:00 PM" ,
+    "level":"Easy"
+  }    
+]
+
