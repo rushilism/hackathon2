@@ -171,8 +171,8 @@ p {
   background-color: #003145;
   height: auto;
   padding: 5% 7%;
-  /* text-align: center;
-  align-items: center; */
+  text-align: center;
+  align-items: center;
 }
 .challenge {
   background-color: white;
@@ -226,6 +226,9 @@ text-align: center;
   
 }
 
+.input-group {
+  width: auto;
+}
 .box {
  
   font-weight: 300;
@@ -265,4 +268,137 @@ text-align: center;
 
 .check {
   margin-left: 1rem;
+}
+
+.challengeDetails {
+  padding: 5% 10% ;
+  background-color: #003145;
+}
+
+.clock {
+  width: 15px;
+  margin: 5px 7px;
+  align-items: center;
+}
+
+.eventtime {
+  background-color: #fabb45;
+  display: inline-block;
+  padding: 0.3rem 1.5rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+  border-radius: 5px;
+}
+
+.headingD {
+  color: white;
+}
+.detailP {
+  color: white;
+  font-weight: 500;
+}
+.detailL {
+  background-color: white;
+  display: inline-block;
+  padding: 0.3rem 1rem;
+  border-radius: 3px;
+  font-weight: 500;
+  color: #003145;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.leveli {
+  padding: auto;
+}
+
+.overview {
+  padding: 0.3rem 8rem 0;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.overviewP {
+  display: inline;
+  border-bottom: 3px solid green;
+  padding: 7px 10px 7px;
+  border-radius: 2px;
+  margin: 0;
+}
+.btnD {
+  border: 1px solid red;
+  color: red;
+  /* margin: 0.5rem; */
+  padding: 0.1rem 1rem;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: 500;
+}
+.btnE {
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+  border-radius: 5px;
+  padding: 0.1rem 1.5rem;
+  font-weight: 500;
+}
+
+.challenge-overview {
+  padding: 3% 10% ;
+}
+.challenge-overview-p{
+  color: gray;
+  font-weight: 600;
+  margin: 0;
+  font-style: bold;
+}
+.editpage {
+  padding: 2% 10%;
+  background-color: aliceblue;
+  font-weight: 600;
+  font-style: bold;
+}
+
+.edit-form {
+  padding: 2% 10%;
+}
+
+.edit-label {
+  margin: 1rem 0;
+}
+.previmg {
+  width: 12rem;
+  border-radius: 5px;
+}
+/* .myFile {
+  display: none;
+} */
+.wrapper {
+  width: 15rem;
+  padding:1.5rem;
+  background-color: aliceblue;
+}
+.labelImg{
+  margin: 0.5rem;
+  color: gray;
+  padding: 0.5rem 2rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-style: bold;
+  font-weight: 600;
+}
+.lbtn {
+  padding: 0.2rem 2rem;
+}
+.levelType{
+  padding: 1rem;
+}
+.wrapperc {
+  width: 15rem;
+  padding:1.5rem;
+ 
+}
+.levelErrorMsg {
+  color: red;
+  text-align: center;
+  font-size: 14px;
 }

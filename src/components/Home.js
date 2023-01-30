@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
               <p>AI Challanges at DPhi simulate real-world problmes. it is a <br/>great place to put your AI/Data science skills to test on<br/> diverse datasets allowing you to faster learning through <br/> competitions.</p>
             </div>
             <div>
-              <button type="button" className="hbtn btn btn-light btn-lg"><strong>Create Challange</strong></button>
+              <Link to='/create' type="button" className="hbtn btn btn-light btn-lg"><strong>Create Challange</strong></Link>
             </div>
             <img className='hicon' src='assets/icons/PicsArt_04-14-04.42 1.svg' alt='hicon'/>
 

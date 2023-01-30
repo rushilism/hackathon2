@@ -1,14 +1,18 @@
 import React from 'react';
-import Challenge from './Challenge';
+import ListItem from './Listitem';
+
+
 
 // import { Link } from 'react-router-dom';
 
-export default function ChallengeList() {
+export default function ChallengeList({list}) {
   
   return (
     
     <div className='row challengelist my-auto mx-auto'>
-    <Challenge/>
+    {list.map((item) => (
+      <ListItem key={item.id} item={item} />
+    ))}
   </div>
   )
 }

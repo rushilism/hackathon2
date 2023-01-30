@@ -1,26 +1,32 @@
-import './App.css';
 import React from 'react';
-
-import ChallengeList from './components/ChallengeList';
-import Features from './components/Features';
-import Home from './components/Home';
+import Homepage from './components/pages/Homepage';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import ChallengeDetails from './components/pages/ChallengeDetails';
+import { Data } from './data';
 import Navbar from './components/Navbar';
-import Search from './components/Search';
+import Edit from './components/pages/Edit';
+import CreateChallange from './components/pages/CreateChallange';
+import NewCd from './components/pages/NewCd';
+import { ToastContainer } from 'react-toastify';
+const App = () => {
 
-
-
-function App() {
+ 
   return (
-  <>
+    <>
     <Navbar/>
-    <Home/>
-    <Features/>
-    <Search/>
-    <ChallengeList/>
-  </>
-  );
+    <BrowserRouter>
+    <ToastContainer />
+    <Routes>
+    <Route path="/" element={<Homepage/>} />
+    <Route path="/details/:id" element={<ChallengeDetails key={Data.id}/>} />
+    <Route path='/edit/:id' element={<Edit/>} key={Data.id} />
+    <Route path='/create' element={<CreateChallange/>} />
+    <Route path='/newcd' element={<NewCd/>} />
+    </Routes>
+    </BrowserRouter>
+    </>
+  )
 }
 
+export default App
 
-
-export default App;

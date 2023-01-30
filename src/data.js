@@ -1,4 +1,11 @@
-export const challengeData = [
+import img1 from './assets/icons/cardimage/Group 1000002466.png';
+import img2 from './assets/icons/cardimage/Group 1000002766.png';
+import img3 from './assets/icons/cardimage/Group 1000002767.png';
+import img4 from './assets/icons/cardimage/Group 1000002466.png';
+import img5 from './assets/icons/cardimage/Group 1000002766.png';
+import img6 from './assets/icons/cardimage/Group 1000002767.png';
+
+export const Data = [
     {
       id:0,
       cimg:"assets/cardimage/Group 1000002466.png",
@@ -9,7 +16,11 @@ export const challengeData = [
       hour:"15",
       minutes:"25",
       date:false,
-      level:"Easy"
+      level:"Easy",
+      startDate:"2022-05-21T00:00:00.000Z",
+      endDate:"2022-06-21T00:00:00.000Z",
+      description:"Identify the class to which each butterfly belongs to",
+      pimg:img1
     },
     {
       id:1,
@@ -21,7 +32,11 @@ export const challengeData = [
       hour:"17",
       minutes:"25",
       date:false ,
-      level:"Easy"
+      level:"Easy",
+      startDate:"Started",
+      endDate:"2022-06-21T00:00:00.000Z",
+      description:"Identify the class to which each butterfly belongs to",
+      pimg:img2
     },
     {
       id:2,
@@ -33,7 +48,9 @@ export const challengeData = [
       hour:false,
       minutes:false,
       date:"16th May'22 09:00 PM" ,
-      level:"Easy"
+      level:"Medium",
+      description:"Identify the class to which each butterfly belongs to",
+      pimg:img3
     },
     {
       id:3,
@@ -45,8 +62,11 @@ export const challengeData = [
       hour:"15",
       minutes:"25",
       date:false ,
-      level:"Easy"
-    },
+      level:"Medium",
+      startDate:"2022-05-21T00:00:00.000Z",
+      endDate:"2022-06-21T00:00:00.000Z",
+      description:"Identify the class to which each butterfly belongs to",
+      pimg:img4    },
     {
       id:4,
       cimg:"assets/cardimage/Group 1000002766.png",
@@ -57,8 +77,11 @@ export const challengeData = [
       hour:"17",
       minutes:"25",
       date:false ,
-      level:"Easy"
-    },
+      level:"Hard",
+      startDate:"Started",
+      endDate:"2022-06-21T00:00:00.000Z",
+      description:"Identify the class to which each butterfly belongs to",
+      pimg:img5    },
     {
       id:5,
       cimg:"assets/cardimage/Group 1000002767.png",
@@ -69,6 +92,7 @@ export const challengeData = [
       hour:false,
       minutes:false,
       date:"16th May'22 09:00 PM" ,
-      level:"Easy"
-    }    
+      level:"Hard",
+      description:"Identify the class to which each butterfly belongs to",
+      pimg:img6    }    
   ]

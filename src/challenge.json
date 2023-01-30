@@ -33,7 +33,7 @@
     "hour":false,
     "minutes":false,
     "date":"16th May'22 09:00 PM" ,
-    "level":"Easy"
+    "level":"Medium"
   },
   {
     "id":"3",
@@ -45,7 +45,7 @@
     "hour":"15",
     "minutes":"25",
     "date":false ,
-    "level":"Easy"
+    "level":"Medium"
   },
   {
     "id":"4",
@@ -57,7 +57,7 @@
     "hour":"17",
     "minutes":"25",
     "date":false ,
-    "level":"Easy"
+    "level":"Hard"
   },
   {
     "id":"5",
@@ -69,7 +69,7 @@
     "hour":false,
     "minutes":false,
     "date":"16th May'22 09:00 PM" ,
-    "level":"Easy"
+    "level":"Hard"
   }    
 ]
 
